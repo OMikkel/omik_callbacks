@@ -1,4 +1,4 @@
-# Mohrs Callback functions
+# OMikkels Callback functions
 
 ## Hvordan bruges det??
 
@@ -17,11 +17,11 @@
 **Lav et nyt callback:**
 ```lua
     sCallback:RegisterServerCallback("NavnPåMitCallback", function(args, du, skal, bruge)
-        local callbackText = args..du..skal..bruge.."Lavet af Mohr"
+        local callbackText = args..du..skal..bruge.."Lavet af OMikkel"
         return callbackText
     end)
 ```
 
-## Med hjælp fra OMikkel
+## Med hjælp fra Mohr
 
 ## Yder jeg support - Måske
