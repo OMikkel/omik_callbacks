@@ -24,7 +24,7 @@ server_scripts {
 
 ### Client side
 
-**Modtag info fra server: - A**
+**Modtag info fra server: - `A`**
 ```lua
     local args, du, skal, bruge = "Dette ", "Callback ", "Er ", "Måske "
     cCallback:TriggerServerCallback("NavnPåMitCallback", {args, du, skal, bruge}, function(values)
@@ -32,7 +32,7 @@ server_scripts {
     end)
 ```
 
-**Send info til server: - B**
+**Send info til server: - `B`**
 ```lua
     cCallback:RegisterClientCallback("GetCoords", function()
         local ped = GetPlayerPed(-1)
@@ -43,7 +43,7 @@ server_scripts {
 
 ### Server side
 
-**Send info til client: - A**
+**Send info til client: - `A`**
 ```lua
     sCallback:RegisterServerCallback("NavnPåMitCallback", function(args, du, skal, bruge)
         local callbackText = args..du..skal..bruge.."Lavet af OMikkel"
@@ -51,7 +51,7 @@ server_scripts {
     end)
 ```
 
-**Modtag info fra client: - B**
+**Modtag info fra client: - `B`**
 ```lua
     sCallback:TriggerClientCallback(source, "GetCoords", {}, function(coords)
         print(coords) -- vector3(x, y, z)
