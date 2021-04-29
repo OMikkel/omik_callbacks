@@ -1,5 +1,12 @@
 # OMikkels Callback functions
 
+## Indhold
+
+### [Installation](#Installation)
+### [Hvordan bruges det??](#Hvordan-Bruges-det??)
+
+---
+
 ## Installation
 
 **cCallback.lua**
