@@ -1,5 +1,25 @@
 # OMikkels Callback functions
 
+## Installation
+
+**cCallback.lua**
+Skal ligge i toppen af client_scripts i `fxmanifest.lua/__resource.lua`
+```lua
+client_scripts {
+    "cCallback.lua",
+    "client.lua"
+}
+```
+
+**sCallback.lua**
+Skal ligge i toppen af server_scripts i `fxmanifest.lua/__resource.lua`
+```lua
+server_scripts {
+    "sCallback.lua",
+    "server.lua"
+}
+```
+
 ## Hvordan bruges det??
 
 ### Client side
