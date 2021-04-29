@@ -3,7 +3,7 @@
 ## Indhold
 
 ### [Installation](#Installation)
-### [Hvordan bruges det??](#Hvordan-Bruges-det??)
+### [Hvordan bruges det??](#hvordan-bruges-det-1)
 
 ---
 
