@@ -9,6 +9,7 @@ cCallback = {
             Wait(1)
         end
         cb(self.server[name])
+        self.server[name] = nil
     end,
     RegisterClientCallback = function(self, name, f)
         self.client[name] = f
