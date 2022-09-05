@@ -12,6 +12,7 @@ sCallback = {
             Wait(1)
         end
         cb(self.client[name])
+        self.client[name] = nil
     end,
     server = {},
     client = {}
